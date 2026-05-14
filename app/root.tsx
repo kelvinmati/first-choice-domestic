@@ -1,8 +1,9 @@
+import "./app.css";
 import { Outlet, Scripts, ScrollRestoration } from "react-router";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 import WhatsAppChat from "./components/WhatsAppChat";
-import "./app.css";
+
 
 export default function App() {
   return (
