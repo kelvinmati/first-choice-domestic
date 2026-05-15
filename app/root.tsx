@@ -11,7 +11,7 @@ export default function App() {
       <body>
         <Navbar /> 
         <main>
-          <Outlet />
+        <Outlet />
         </main>
         <Footer />
         <WhatsAppChat />
