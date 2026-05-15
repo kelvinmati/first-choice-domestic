@@ -1,6 +1,8 @@
 import type { Config } from "@react-router/dev/config";
 
 export default {
-  ssr: true,
-  prerender: true,
+  // Disable SSR to generate a static site
+  ssr: false, 
+  // Prerender the home page (and any other routes)
+  prerender: ["/"], 
 } satisfies Config;
