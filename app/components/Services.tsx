@@ -29,7 +29,7 @@ const Services = () => {
 
       <div className='relative mx-auto w-[90%] max-w-6xl'>
         <div className='mx-auto max-w-3xl text-center'>
-          <p className='text-sm font-semibold uppercase tracking-[0.24em] text-[#1a5a8a]'>Services</p>
+          <p className='section-label'>Services</p>
           <h2 className='mt-3 text-3xl font-bold text-slate-900 sm:text-4xl'>
             Cleaning Services Built Around Your Schedule
           </h2>

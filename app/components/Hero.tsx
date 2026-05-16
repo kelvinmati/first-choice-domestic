@@ -1,6 +1,9 @@
 import React from 'react'
+import { useBookingModal } from '~/context/BookingModalContext'
 
 const Hero = () => {
+  const { openModal } = useBookingModal()
+
   return (
       <section
         id="home"
@@ -57,8 +60,9 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="mailto:firstchoicedomestic@suremail.gg"
+            <button
+              type='button'
+              onClick={openModal}
               className="px-8 py-4 rounded-full font-semibold tracking-wide transition-all duration-200 hover:scale-105"
               style={{
                 background: "#b09a2e",
@@ -68,7 +72,7 @@ const Hero = () => {
               }}
             >
               Get In Touch
-            </a>
+            </button>
             <a
               href="tel:07781103864"
               className="px-8 py-4 rounded-full font-semibold tracking-wide transition-all duration-200 hover:scale-105"

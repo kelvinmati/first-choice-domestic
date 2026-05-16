@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../../public/logo-removebg.png"
+import { useBookingModal } from '~/context/BookingModalContext'
 
 const navLinks = [
   { label: 'Home', href: '/#home' },
@@ -7,10 +8,12 @@ const navLinks = [
   { label: 'Services', href: '/#services' },
   { label: 'How It Works', href: '/#how-it-works' },
   { label: 'Why Us', href: '/#why-us' },
-  { label: 'Contact Us', href: '/#contact-us' },
+  // { label: 'Contact Us', href: '/#contact-us' },
 ]
 
 const Navbar = () => {
+  const { openModal } = useBookingModal()
+
   return (
     <header
       className='relative h-16 inset-x-0 top-0 z-20 bg-white text-black/90 backdrop-blur-sm'
@@ -37,6 +40,15 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <div className='ml-10'>
+          <button
+            onClick={openModal}
+            className='px-6 py-2 bg-[#b09a2e] text-white font-semibold rounded-full hover:bg-[#a08a2e] transition-colors duration-200'
+          >
+            Book Now
+          </button>
+        </div>
       </nav>
     </header>
   )

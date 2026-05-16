@@ -37,10 +37,7 @@ const HowItWorks = () => {
 
       <div className='relative mx-auto w-[90%] max-w-6xl'>
         <div className='mx-auto max-w-2xl text-center'>
-          <p
-            className='mb-3 text-sm font-semibold uppercase tracking-[0.2em]'
-            style={{ color: '#1a5a8a' }}
-          >
+          <p className='section-label'>
             How It Works
           </p>
           <h2 className='text-3xl font-bold text-slate-900 sm:text-4xl'>

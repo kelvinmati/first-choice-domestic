@@ -5,6 +5,7 @@ import ContactUs from '~/components/ContactUs'
 import Hero from '~/components/Hero'
 import HowItWorks from '~/components/HowItWorks'
 import Services from '~/components/Services'
+import Testimonials from '~/components/Testimonials'
 import WhyUs from '~/components/WhyUs'
 
 const home = () => {
@@ -13,9 +14,10 @@ const home = () => {
      <Hero/>
      <About/>
     <Services/>
-     {/* <Burner/> */}
+     <Burner/>
      <HowItWorks/>
      <WhyUs/>
+     <Testimonials/>
      {/* <ContactUs/> */}
     </div>
   )

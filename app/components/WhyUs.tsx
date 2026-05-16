@@ -17,7 +17,7 @@ const WhyUs = () => {
         </div>
 
         <div>
-          <p className='text-sm font-semibold uppercase tracking-[0.2em] text-[#1a5a8a]'>Why Choose Us</p>
+          <p className='section-label'>Why Choose Us</p>
           <h2 className='mt-3 text-3xl font-bold text-slate-900 sm:text-4xl'>
             We Clean With Care, Consistency, And Pride
           </h2>
