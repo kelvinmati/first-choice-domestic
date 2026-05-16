@@ -35,7 +35,7 @@ const Hero = () => {
             className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
             style={{ color: "#fff", lineHeight: 1.1, letterSpacing: "-0.02em" }}
           >
-         <span className='text-red-300'>   Affordable &{" "}</span>
+         <span >  Affordable &{" "}</span>
             <span
               style={{
                 color: "#b09a2e",
