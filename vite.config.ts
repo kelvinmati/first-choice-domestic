@@ -15,15 +15,17 @@
 
 
 import { reactRouter } from "@react-router/dev/vite";
+import tailwindcss from "@tailwindcss/vite";
+import netlifyPlugin from "@netlify/vite-plugin-react-router";
 import { defineConfig } from "vite";
-import tsconfigPaths from "vite-tsconfig-paths";
-// ↓ add this
-import netlifyReactRouter from "@netlify/vite-plugin-react-router";
+import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
-  plugins: [
-    reactRouter(),
-    tsconfigPaths(),
-    netlifyReactRouter({ edge: true }) // ← add this
-  ]
+  base: "/",
+  plugins: [tailwindcss(), reactRouter(), netlifyPlugin()],
+  resolve: {
+    alias: {
+      "~": fileURLToPath(new URL("./app", import.meta.url)),
+    },
+  },
 });
