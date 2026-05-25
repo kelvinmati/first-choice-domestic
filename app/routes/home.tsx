@@ -17,7 +17,7 @@ const home = () => {
      <Burner/>
      <HowItWorks/>
      <WhyUs/>
-     <Testimonials/>
+     {/* <Testimonials/> */}
      {/* <ContactUs/> */}
     </div>
   )
