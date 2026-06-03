@@ -1,24 +1,34 @@
 import React from 'react'
 import burnerImg from "../../public/burner.jpg"
-import cleaningImg from "../../public/cleaningimg.avif"
-import cleaningImg2 from "../../public/ cleaningImg2.avif"
+import cleaningImg from "../../public/img9.jpeg"
+import cleaningImg2 from "../../public/img6.jpeg"
 
 
 
 const Burner = () => {
   return (
-    <div >
-      <div className='mx-auto w-[90%] grid grid-cols-2 gap-5 items-center py-15'>
-        <div className='flex flex-col gap-5'>
-      <img src={burnerImg} alt="Burner" className="  rounded-lg shadow-lg" />
-      <img src={cleaningImg2} alt="Cleaning2" className="  rounded-lg shadow-lg" />
-
+    <div>
+      <div className='mx-auto grid w-[90%] max-w-6xl grid-cols-1 gap-5 py-12 md:grid-cols-2 md:items-stretch'>
+        <div className='grid grid-cols-1 gap-5 md:grid-rows-2'>
+          <img
+            src={burnerImg}
+            alt='Burner'
+            className='h-56 w-full rounded-lg object-cover shadow-lg md:h-full'
+          />
+          <img
+            src={cleaningImg2}
+            alt='Cleaning2'
+            className='h-56 w-full rounded-lg object-cover shadow-lg md:h-full'
+          />
         </div>
-      <img src={cleaningImg} alt="Cleaning" className="  rounded-lg shadow-lg" />
-
-
+        <div className='md:h-full'>
+          <img
+            src={cleaningImg}
+            alt='Cleaning'
+            className='h-56 w-full rounded-lg object-cover shadow-lg md:h-full'
+          />
+        </div>
       </div>
-   
     </div>
   )
 }

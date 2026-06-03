@@ -1,3 +1,70 @@
+// import React from 'react'
+// import ImageCarousel from './ImageCarousel'
+// import { useBookingModal } from '~/context/BookingModalContext'
+
+// const Hero = () => {
+//   // const { openModal } = useBookingModal()
+
+//   return (
+
+//                 <div className="text-center max-w-3xl bg-red-500">
+//                   <h1
+//                     className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight"
+//                     style={{ color: '#fff', lineHeight: 1.1, letterSpacing: '-0.02em' }}
+//                   >
+//                     <span>Affordable &amp; </span>
+//                     <span style={{ color: '#b09a2e', display: 'inline-block', fontStyle: 'italic' }}>
+//                       Reliable
+//                     </span>
+//                     <br />
+//                     Home Cleaners
+//                   </h1>
+
+//                   <p
+//                     className="text-base sm:text-lg md:text-xl mb-10 leading-relaxed"
+//                     style={{ color: 'rgba(255,255,255,0.86)', maxWidth: '620px', margin: '0 auto 2.5rem' }}
+//                   >
+//                     Experienced, insured, and police checked staff giving you complete peace of mind in your own home.
+//                   </p>
+
+//                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
+//                     <button
+//                       type="button"
+//                       // onClick={onOpenModal}
+//                       className="px-8 py-4 rounded-full font-semibold tracking-wide transition-all duration-200 hover:scale-105"
+//                       style={{
+//                         background: '#b09a2e',
+//                         color: '#fff',
+//                         letterSpacing: '0.06em',
+//                         boxShadow: '0 4px 24px rgba(176,154,46,0.4)',
+//                       }}
+//                     >
+//                       Get In Touch
+//                     </button>
+//                     <a
+//                       href="tel:07781103864"
+//                       className="px-8 py-4 rounded-full font-semibold tracking-wide transition-all duration-200 hover:scale-105"
+//                       style={{
+//                         background: 'rgba(255,255,255,0.12)',
+//                         color: '#fff',
+//                         border: '1.5px solid rgba(255,255,255,0.35)',
+//                         letterSpacing: '0.06em',
+//                       }}
+//                     >
+//                       07781 103864
+//                     </a>
+//                   </div>
+
+//                   <p className="mt-5 text-sm" style={{ color: 'rgba(255,255,255,0.58)' }}>
+//                     24HR Answer Phone Available
+//                   </p>
+//                 </div>
+           
+//   )
+// }
+
+// export default Hero
+
 import React from 'react'
 import { useBookingModal } from '~/context/BookingModalContext'
 
@@ -7,7 +74,7 @@ const Hero = () => {
   return (
       <section
         id="home"
-        className="relative min-h-screen flex items-center justify-center overflow-hidden"
+        className="relative min-h-[400px] py-10 flex items-center justify-center overflow-hidden"
         style={{
           background: "linear-gradient(135deg, #2f7bb4 0%, #1a5a8a 55%, #0e3a5c 100%)",
         }}

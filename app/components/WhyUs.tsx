@@ -6,13 +6,13 @@ const WhyUs = () => {
       <div className='mx-auto grid w-[90%] max-w-6xl items-center gap-10 lg:grid-cols-2'>
         <div className='relative'>
           <img
-            src='/whyus.jpg'
+            src='/img8.jpeg'
             alt='Professional cleaner preparing a bright modern home'
             className=' w-full rounded-2xl object-cover shadow-xl'
           />
           <div className='absolute -bottom-6 left-6 rounded-xl bg-[#1a5a8a] px-6 py-4 text-white shadow-lg'>
             <p className='text-xs uppercase tracking-[0.18em] text-white/80'>Trusted Team</p>
-            <p className='mt-1 text-lg font-semibold'>5+ Years Of Reliable Service</p>
+            <p className='mt-1 text-lg font-semibold'>15+ Years Of Reliable Service</p>
           </div>
         </div>
 

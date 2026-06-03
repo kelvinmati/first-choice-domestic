@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from "../../public/about.jpg"
+import aboutImg from "../../public/img3.jpeg"
 const About = () => {
   return (
     <section id='about-us' className='scroll-mt-24 py-10'>
