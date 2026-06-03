@@ -12,7 +12,7 @@ type ImageCarouselProps = {
 const ImageCarousel = ({ onOpenModal }: ImageCarouselProps) => {
   const slides = useMemo<Slide[]>(
     () => [
-      { src: '/img1.jpeg', alt: 'Professional domestic cleaning service' },
+      { src: '/img1copy.png', alt: 'Professional domestic cleaning service' },
       { src: '/img2.jpeg', alt: 'Spotless kitchen cleaning result' },
       { src: '/img10.jpeg', alt: 'Living room deep cleaning' },
       { src: '/img3.jpeg', alt: 'Bathroom sanitisation and sparkle finish' },
