@@ -134,6 +134,9 @@ const Footer = () => {
           <p className='text-xs text-white/70 sm:text-sm'>
             © {new Date().getFullYear()} First Choice Domestic. All rights reserved.
           </p>
+          <p className='mt-1 text-xs text-white/70 sm:text-sm'>
+            Powered by ITR Business Solutions Limited. <span className=' text-yellow'>info@Itrbizsolutions.co.ke</span>
+          </p>
         </div>
       </div>
     </footer>
